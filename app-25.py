@@ -6,8 +6,8 @@ from telegram.ext import (Application, CommandHandler, MessageHandler, CallbackQ
                           TypeHandler, ApplicationHandlerStop, ContextTypes, filters)
 
 # ================= SOZLAMALAR =================
-BOT_TOKEN = "BOTFATHER_TOKENINI_SHU_YERGA_QOYING"
-ADMIN_ID = 123456789          # o'zingizning raqamli Telegram ID'ingiz
+BOT_TOKEN = "8843356010:AAEOJNYNrp-OChksucwsqYpf0wgVqWvZYHc"
+ADMIN_ID = 8390092754          # o'zingizning raqamli Telegram ID'ingiz
 DB_PATH = "tanishuvbot.db"
 MIN_AGE, MAX_AGE, ADULT = 13, 50, 18
 ONLINE_MINUTES = 10
