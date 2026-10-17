@@ -16,7 +16,7 @@ from telegram.ext import (
 
 # ===== SOZLAMALAR =====
 # Tokenni kod ichiga yozmang. Android/Pydroid muhitida environment variable qilib qo'ying.
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8843356010:AAEmN--LqlpWivRQom_NoAV_b_IzCqcHX1U").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8851711639:AAHC172Om_Nu8h95HXN7sP_Q0XEeeETB-mk").strip()
 ADMIN_ID = int(os.getenv("ADMIN_ID", "8390092754"))  # Render Environment Variables orqali kiriting
 DB_PATH = "tanishuvbot.db"
 
