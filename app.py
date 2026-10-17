@@ -16,16 +16,16 @@ from telegram.ext import (
 
 # ===== SOZLAMALAR =====
 # Tokenni kod ichiga yozmang. Android/Pydroid muhitida environment variable qilib qo'ying.
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))  # Render Environment Variables orqali kiriting
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8843356010:AAGfWn0d36uwf0ItBb4eoPLoHByI5MArqIY").strip()
+ADMIN_ID = int(os.getenv("ADMIN_ID", "8390092754"))  # Render Environment Variables orqali kiriting
 DB_PATH = "tanishuvbot.db"
 
 # To'lov ma'lumotlarini o'zingiznikiga almashtiring.
 VIP_PRICE = "30 000 so'm"
 VIP_DAYS = 30
-CARD_NUMBER = os.getenv("CARD_NUMBER", "KARTA_RAQAMINI_SHU_YERGA_KIRITING")
-CARD_HOLDER = os.getenv("CARD_HOLDER", "KARTA_EGASI_ISMI")
-ADMIN_USERNAME = os.getenv("ADMIN_USERNAME", "@ADMIN_USERNAME")
+CARD_NUMBER = os.getenv("CARD_NUMBER", "6262570820096776")
+CARD_HOLDER = os.getenv("CARD_HOLDER", "RAHMONOV ABDUSAMAD")
+ADMIN_USERNAME = os.getenv("ADMIN_USERNAME", "@Abdusamadjon_00")
 
 # Voyaga yetmaganlar faqat 13–17 yoshdagilarni, kattalar esa 18+ guruhini ko'radi.
 MIN_AGE, MAX_AGE = 13, 50
